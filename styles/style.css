@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+/* font-family: "Inter", sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+/* font-family: "Merriweather", serif; */
+
+* {
+    /* margin-top: 100px; */
+}
+
+.banner {
+    width: 1320px;
+
+    height: 600px;
+    background-image: linear-gradient(180deg, rgba(16, 16, 16) 0%, rgba(16, 16, 16, 0) 100%), url("../images/Banner\ Image.png");
+    background-repeat: no-repeat;
+    font-family: "Merriweather", serif;
+}
+
+.banner-text {
+    text-align: center;
+    justify-content: center;
+    padding: 182px 300px 172px 182px;
+}
+
+.banner-greetings {
+    font-size: 32px;
+    color: #ffffff;
+}
+
+.banner-about {
+    margin-top: 10px;
+    font-size: 72px;
+    color: #ffffff;
+}
+
+/* 2nd page styles */
+
+.offering {
+    /* padding-top: 100px; */
+    font-family: "Inter", sans-serif;
+
+}
+
+.details {
+
+    text-align: center;
+}
+
+.how {
+    font-size: 70px;
+    font-weight: bold;
+    color: #FF0000;
+}
+
+.day {
+    font-size: 15px;
+    color: #FF0000;
+    /* padding-top: 10px; */
+}
+
+.which {
+    font-size: 35px;
+    font-weight: bold;
+    color: #070211;
+}
+
+.nyp {
+    width: 700px;
+    height: 500px;
+}
+
+/* 3rd page styles */
+.party {
+    margin-top: 100px;
+    background-image: url("../images/Vectorrr.png");
+    width: 1320px;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.party-elements {
+    display: flex;
+
+}
+
+.party-greetings {
+    font-family: "Merriweather", serif;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+}
+
+.party-description {
+    font-family: "Inter", sans-serif;
+    margin-top: 5px;
+    font-size: 15px;
+    color: #ffffff;
+}
+
+.party-element {
+    padding: 120px 380px 298px 125px;
+}
+
+.join {
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.image2024 {
+    padding: 50px;
+}
