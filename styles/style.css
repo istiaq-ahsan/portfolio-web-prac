@@ -7,6 +7,17 @@
     /* margin-top: 100px; */
 }
 
+main {
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+main section {
+    margin-top: 130px;
+    margin-bottom: 130px;
+
+}
+
 .banner {
     width: 1320px;
 
@@ -19,11 +30,11 @@
 .banner-text {
     text-align: center;
     justify-content: center;
-    padding: 182px 300px 172px 182px;
+    padding: 150px 300px 150px 380px;
 }
 
 .banner-greetings {
-    font-size: 32px;
+    font-size: 50px;
     color: #ffffff;
 }
 
@@ -114,4 +125,134 @@
 
 .image2024 {
     padding: 50px;
+}
+
+.text-primary {
+    color: #FF0000;
+}
+
+.event-details {
+    width: 1320px;
+    height: 600px;
+    background-image: linear-gradient(0deg, #f5eeee 20%, #d89393 100%);
+    margin-top: 100px;
+    font-family: "Inter", sans-serif;
+}
+
+.event-detail {
+    font-size: 32px;
+    font-weight: 520;
+    text-align: center;
+    padding: 110px 385px 110px 385px;
+}
+
+.btn-primary {
+    background-color: #FF0000;
+    color: #ffffff;
+    padding: 16px 32px;
+    border: none;
+    border-radius: 10px;
+}
+
+.packages {
+    font-family: "Inter", sans-serif;
+    margin-top: 130px;
+}
+
+.package {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+
+}
+
+.column1 {
+    width: 393px;
+    height: 255px;
+}
+
+.column3 {
+    width: 393px;
+    height: 255px;
+}
+
+.column1-1st-para {
+    color: #FF0000;
+    font-size: 20px;
+}
+
+.column1-2nd-para {
+    padding-top: 5px;
+    font-size: 45px;
+    font-weight: bold;
+    font-family: "Merriweather", serif;
+}
+
+.column1-3rd-para {
+    color: rgba(7, 2, 17, 0.6);
+}
+
+.column3-1st-para {
+    font-size: 45px;
+    font-weight: bolds;
+    color: #FF0000;
+}
+
+.column3-2nd-para {
+    color: rgba(7, 2, 17, 0.6);
+}
+
+.column3-3rd-para {}
+
+.function {
+    margin-top: 130px;
+    width: 1320px;
+    height: 986px;
+    background-image: url("../images/Rectangle\ 2.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.para {
+    width: 900px;
+    height: 260px;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    padding-left: 200px;
+
+}
+
+.one {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    color: #070211;
+}
+
+.two {
+    padding-top: 2px;
+    font-size: 65px;
+    font-family: "Merriweather", serif;
+
+}
+
+.three {
+    font-size: 15px;
+    font-family: "Inter", sans-serif;
+}
+
+.gift {
+    width: 600px;
+    height: 500px;
+    padding-top: 170px;
+    padding-left: 100px;
+}
+
+.discount {
+    height: 280px;
+    width: 280px;
+    padding-bottom: 250px;
+    padding-left: 300px;
 }
